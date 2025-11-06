@@ -1,4 +1,6 @@
 
+http://myawsgo.duckdns.org/secondsite/
+
 ![Uploading A_banner_for_a_GitHub_repository_or_tutorial_title.png…]()
 
 
