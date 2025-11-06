@@ -32,10 +32,16 @@ ssh -i your-key.pem ec2-user@your-ec2-ip
 # Install web server and PHP
 sudo yum update -y
 sudo yum install httpd php php-fileinfo -y
+<img width="552" height="395" alt="f3125bba-b530-4eff-8cee-f612f0b284e1" src="https://github.com/user-attachments/assets/9344389c-18be-41dd-90d4-55470bf0c52e" />
+
 
 # Start services
 sudo systemctl start httpd
 sudo systemctl enable httpd
+
+<img width="550" height="148" alt="72089ed3-bf18-431f-a4fe-31c38622e77e" src="https://github.com/user-attachments/assets/e300aceb-b4e3-4344-ab6b-628d671e6c96" />
+<img width="552" height="395" alt="f3125bba-b530-4eff-8cee-f612f0b284e1" src="https://github.com/user-attachments/assets/c85ab4ea-b435-4347-af2e-641c25b9e5e2" />
+
 
 # Deploy files
 sudo cp -r aws-linux-webhosting/* /var/www/html/
