@@ -1,3 +1,6 @@
+![AWS EC2 Project Banner](https://github.com/<your-username>/aws-linux-webhosting/blob/main/A_banner_for_a_GitHub_repository_or_tutorial_title.png)
+
+
 # aws-linux-webhosting
 Host multiple websites on AWS EC2 using Apache, PHP, and free DNS. Includes file upload + gallery system
 # 🖥️ AWS Linux Web Hosting - Media Sharing Platform
