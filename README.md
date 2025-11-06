@@ -1,4 +1,5 @@
-![AWS EC2 Project Banner](https://github.com/<your-username>/aws-linux-webhosting/blob/main/A_banner_for_a_GitHub_repository_or_tutorial_title.png)
+
+![Uploading A_banner_for_a_GitHub_repository_or_tutorial_title.png…]()
 
 
 # aws-linux-webhosting
