@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Linux Web Hosting - Media Gallery</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🖥️ AWS Linux Media Hosting</h1>
+            <p>Cloud-Powered Photo & Video Sharing Platform</p>
+        </header>
+
+        <div class="upload-section">
+            <h2>📁 Upload Media Files</h2>
+            <form action="upload.php" method="POST" enctype="multipart/form-data" class="upload-form">
+                <div class="file-input-container">
+                    <input type="file" name="files[]" id="fileInput" multiple accept="image/*,video/*">
+                    <label for="fileInput" class="file-label">
+                        <span class="file-icon">📎</span>
+                        Choose Files
+                    </label>
+                    <div id="fileList" class="file-list"></div>
+                </div>
+                <button type="submit" class="upload-btn">
+                    <span class="btn-icon">🚀</span>
+                    Upload to AWS Cloud
+                </button>
+            </form>
+        </div>
+
+        <?php include 'gallery.php'; ?>
+
+        <footer>
+            <div class="server-info">
+                <h3>🖥️ Server Information</h3>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <strong>Host:</strong> 
+                        <span><?php echo gethostname(); ?></span>
+                    </div>
+                    <div class="info-item">
+                        <strong>PHP Version:</strong> 
+                        <span><?php echo phpversion(); ?></span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Server Software:</strong> 
+                        <span><?php echo $_SERVER['SERVER_SOFTWARE']; ?></span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Upload Max Size:</strong> 
+                        <span><?php echo ini_get('upload_max_filesize'); ?></span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
