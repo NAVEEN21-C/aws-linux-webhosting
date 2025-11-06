@@ -1,0 +1,16 @@
+aws-linux-webhosting/
+│
+├── index.html
+├── upload.php
+├── delete.php
+├── gallery.php
+├── uploads/
+│   └── .htaccess
+├── config/
+│   └── database.php
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── script.js
+└── README.md
