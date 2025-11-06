@@ -2,6 +2,10 @@
 Host multiple websites on AWS EC2 using Apache, PHP, and free DNS. Includes file upload + gallery system
 # 🖥️ AWS Linux Web Hosting - Media Sharing Platform
 
+<img width="921" height="630" alt="2e2a8998-9823-4655-8325-a16b3e5f7acd" src="https://github.com/user-attachments/assets/d27d03ac-3093-4dc8-a24f-05d1<img width="552" height="395" alt="f3125bba-b530-4eff-8cee-f612f0b284e1" src="https://github.com/user-attachments/assets/8b5a6d2d-05d6-4094-9df4-b1bdbabeab2b" />
+d8b810d8" />
+<img width="550" height="148" alt="72089ed3-bf18-431f-a4fe-31c38622e77e" src="https://github.com/user-attachments/assets/a5e7ccf2-9acc-4005-bc49-3d0664e61ffd" />
+
 A modern, secure media sharing platform designed specifically for AWS Linux environments.
 
 ## 🌟 Features
