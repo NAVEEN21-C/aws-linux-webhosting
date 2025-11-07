@@ -16,6 +16,9 @@ d8b810d8" />
 
 
 <img width="552" height="395" alt="f3125bba-b530-4eff-8cee-f612f0b284e1" src="https://github.com/user-attachments/assets/4b727529-2187-43c9-8b49-e648765a2bb6" />
+<img width="941" height="291" alt="ss" src="https://github.com/user-attachments/assets/3848b463-622d-4240-b1aa-62ba2505e853" />
+
+
 
 A modern, secure media sharing platform designed specifically for AWS Linux environments.
 
